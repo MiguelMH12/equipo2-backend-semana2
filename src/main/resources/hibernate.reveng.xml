@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="compra" match-catalog="inventario"></table-filter>
+	<table-filter match-name="producto" match-catalog="inventario"></table-filter>
+	<table-filter match-name="producto_compra"
+		match-catalog="inventario">
+	</table-filter>
+	<table-filter match-name="producto_venta"
+		match-catalog="inventario">
+	</table-filter>
+	<table-filter match-name="usuario" match-catalog="inventario"></table-filter>
+	<table-filter match-name="venta" match-catalog="inventario"></table-filter>
+</hibernate-reverse-engineering>
